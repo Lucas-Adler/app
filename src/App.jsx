@@ -10,7 +10,7 @@ import Contato from './Content/Contato'
 
  function App() {
    return (
-     <div className="snap-y snap-mandatory overflow-scroll h-full bg-[#f0F0F0] scroll-smooth ">
+     <div className="snap-y snap-mandatory overflow-scroll h-full scroll-smooth bg-[url('/src/assets/BG.png')] bg-fixed bg-cover">
      
          <Navbar/>
          <Home />

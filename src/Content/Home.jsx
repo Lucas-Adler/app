@@ -12,7 +12,7 @@ export default function Home() {
   const [isHeadlessOpen, setIsHeadlessOpen] = useState(false);
 
   return( 
-      <section className="flex items-center justify-between lg:max-w-[75%] lg:mx-auto max-w-full px-[8%] flex-wrap w-full py-[15%] h-fit font-display" id="Home">
+      <section className="flex items-center justify-between lg:max-w-[75%] lg:mx-auto max-w-full px-[8%] flex-wrap w-full py-[15%] h-fit font-display pb-[18%] bg-[#f0f0f0]" id="Home">
         <div className="flex flex-col max-w-[310px]">
 
             <div id='text-home' className="text-center">

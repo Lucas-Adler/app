@@ -146,9 +146,13 @@ export default function eficiedu() {
   }
   return (
     <section
-      className=" lg:content-center w-full max-w-full h-[1000px] lg:justify-between pt-10 lg:mx-auto lg:max-w-[75%]  font-display "
+      className=" lg:content-center w-full max-w-full h-[1000px] lg:justify-between pt-10 lg:mx-auto lg:max-w-[75%] font-display bg-[#c5c5c5] rounded-t-[60px] mt-[-60px]"
       id="Sim"
     >
+      <img id="line" src="/src/assets/Line.svg" className='relative mx-auto mt-[-30px] z-20'/>
+      <img id="Rectangle" src="/src/assets/Rectangle.svg" className='relative mx-auto mt-[-22px] z-10 w-[160px]' />
+      
+
       {/* //Botao de ir para os lados */}
       <div className="flex justify-start max-w-full lg:hidden">
         <button onClick={slideLeft} className="bg-[#e8e8e8] p-2 rounded-full">
@@ -171,7 +175,7 @@ export default function eficiedu() {
       {/* preciso ajustar aqui pra poder funcionar o botão de ir para os lados sem desconfigurar o grid */}
       <div
         id="content"
-        className="grid grid-flow-col scrollbar-hide m-3 h-full scroll-smooth gap-4 overflow-x-auto "
+        className="grid grid-flow-col scrollbar-hide mx-5 mt-5 mb-[-10px] h-[860px] scroll-smooth gap-4 overflow-x-auto bg-[#e8e8e8] rounded-[40px]"
       >
         {/* Seletor de parametros (usei o headless UI) */}
 
@@ -591,7 +595,7 @@ export default function eficiedu() {
         </div>
 
         {/* Para os gráficos usei o recharts */}
-        <div className="min-w-[500px] lg:w-full relative h-[750px] rounded-lg  shadow-lg bg-[#e8e8e8] p-2 mt-8 col-span-2 lg:justify-items-stretch ">
+        <div className="min-w-[500px] lg:w-full relative h-[750px]  p-2 mt-8 col-span-2 lg:justify-items-stretch ">
           <recharts.ResponsiveContainer width="100%" height="100%">
             <recharts.BarChart
               data={testData}
