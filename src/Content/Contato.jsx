@@ -7,8 +7,8 @@ export default function RoadMap() {
       className="lg:max-w-[75%] lg:mx-auto max-w-full px-[8%] w-full h-screen font-display bg-[#f0f0f0] rounded-t-[60px] mt-[-60px] pt-10"
       id="Contato"
     >
-      <img src="/public/Line.svg" className="relative mx-auto mt-[-30px] z-20 "/>
-      <img id="Rectangle" src="/public/Rectangle-cnt.svg" className='relative mx-auto mt-[-22px] z-10 w-[160px]' />
+      <img src="/Line.svg" className="relative mx-auto mt-[-30px] z-20 "/>
+      <img id="Rectangle" src="/Rectangle-cnt.svg" className='relative mx-auto mt-[-22px] z-10 w-[160px]' />
 
       <div className="pt-36">
         <div className="flex justify-between">

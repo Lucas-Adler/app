@@ -149,8 +149,8 @@ export default function eficiedu() {
       className=" lg:content-center w-full max-w-full h-[1000px] lg:justify-between pt-10 lg:mx-auto lg:max-w-[75%] font-display bg-[#c5c5c5] rounded-t-[60px] mt-[-60px]"
       id="Sim"
     >
-      <img id="line" src="/public/Line.svg" className='relative mx-auto mt-[-30px] z-20'/>
-      <img id="Rectangle" src="/public/Rectangle.svg" className='relative mx-auto mt-[-22px] z-10 w-[160px]' />
+      <img id="line" src="/Line.svg" className='relative mx-auto mt-[-30px] z-20'/>
+      <img id="Rectangle" src="/Rectangle.svg" className='relative mx-auto mt-[-22px] z-10 w-[160px]' />
       
 
       {/* //Botao de ir para os lados */}
