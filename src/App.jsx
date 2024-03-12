@@ -3,7 +3,7 @@ import Navbar from './Content/Navbar'
 import Home from './Content/Home'
 import Sim from './Content/eficiedu'
 import Contato from './Content/Contato'
-
+import Bottom from './Content/Bottom'
 
 
 
@@ -16,7 +16,7 @@ import Contato from './Content/Contato'
          <Home />
          <Sim />
          <Contato />
-         
+         <Bottom/>  
         
          
      
