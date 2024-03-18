@@ -175,13 +175,13 @@ export default function eficiedu() {
       {/* preciso ajustar aqui pra poder funcionar o botão de ir para os lados sem desconfigurar o grid */}
       <div
         id="content"
-        className="grid grid-flow-col scrollbar-hide mx-5 mt-5 mb-[-10px] h-[860px] scroll-smooth gap-4 overflow-x-auto bg-[#e8e8e8] rounded-[40px]"
+        className="grid grid-flow-col scrollbar-hide mx-5 mt-5 mb-[-10px] h-[820px] scroll-smooth gap-4 overflow-x-auto bg-[#e8e8e8] rounded-[40px] lg:h-[850px]"
       >
         {/* Seletor de parametros (usei o headless UI) */}
 
         <div
           id="options"
-          className="flex flex-col relative h-[613px] w-fit p-4  lg:flex-none lg:col-span-1"
+          className="flex flex-col relative h-[613px] w-fit py-4 lg:flex-none lg:col-span-1"
         >
           <div id="image">
             <img
@@ -595,7 +595,7 @@ export default function eficiedu() {
         </div>
 
         {/* Para os gráficos usei o recharts */}
-        <div className="min-w-[500px] lg:w-full relative h-[750px]  p-2 mt-8 col-span-2 lg:justify-items-stretch ">
+        <div className="min-w-[500px] lg:w-full relative h-[750px] p-2 mt-8  col-span-2 lg:justify-items-stretch">
           <recharts.ResponsiveContainer width="100%" height="100%">
             <recharts.BarChart
               data={testData}
