@@ -41,7 +41,48 @@ export default function Home() {
               >
                 <div className="flex flex-col z-100">
                   O aplicativo foi desenvolvido utilizando um banco de dados previamente configurado, tendo a simulação feita a partir do software EnergyPlus, com os seguintes parâmetros e grandezas:
-
+                  <a>
+                  <a className="font-clashSemi">Dimensões</a>
+                  <br></br>
+                  4m x 6m (24m²)
+                  <br></br>
+                  Pé direito: 3m
+                  <br></br>
+                  <a className="font-clashSemi">Materiais</a>
+                  <br></br>
+                  Paredes: Alvenaria Bloco de Concreto (U = 2,26 W/m². K)
+                  <br></br>
+                  Piso e Teto: Laje de Concreto
+                  <br></br>
+                  <a className="font-clashSemi">Absortância das Paredes</a>
+                  <br></br>
+                  0,4
+                  <br></br>
+                  <a className="font-clashSemi">Carga de Iluminação</a>
+                  <br></br>
+                  12 W/m²
+                  <br></br>
+                  <a className="font-clashSemi">Ocupação</a>
+                  <br></br>
+                  3 pessoas
+                  <br></br>
+                  <a className="font-clashSemi">Carga dos Equipamentos</a>
+                  <br></br>
+                  16 W/m²
+                  <br></br>
+                  <a className="font-clashSemi">Horário de Utilização</a>
+                  <br></br>
+                  8h às 18h - Seg - Sex
+                  <br></br>
+                  <a className="font-clashSemi">Infiltração de Ar</a>
+                  <br></br>
+                  0,6 trocas por hora
+                  <br></br>
+                  <a className="font-clashSemi">Renovação de Ar</a>
+                  <br></br>
+                  7,5 L/s/Pessoa
+                  <br></br>
+                  </a>
 
                   <Button
                     className="mt-4"
