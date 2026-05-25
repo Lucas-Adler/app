@@ -146,15 +146,15 @@ export default function eficiedu() {
   }
   return (
     <section
-      className=" lg:content-center w-full max-w-full h-[1000px] lg:justify-between pt-10 lg:mx-auto lg:max-w-[75%] font-display bg-[#c5c5c5] rounded-t-[60px] mt-[-60px]"
+      className=" lg:content-center w-full max-w-full h-[1000px] lg:justify-between lg:mx-auto lg:max-w-[75%] font-display bg-[#c5c5c5] rounded-t-[60px] mt-[-60px] rounded-b-[60px] relative z-20"
       id="Sim"
     >
-      <img id="line" src="/Line.svg" className='relative mx-auto mt-[-30px] z-20'/>
+      {/*<img id="line" src="/Line.svg" className='relative mx-auto mt-[-30px] z-20'/>
       <img id="Rectangle" src="/Rectangle.svg" className='relative mx-auto mt-[-22px] z-10 w-[160px]' />
-      
+      */}
 
       {/* //Botao de ir para os lados */}
-      <div className="flex justify-start max-w-full lg:hidden">
+      <div className="flex justify-end mr-[70px] pt-2 max-w-full lg:hidden">
         <button onClick={slideLeft} className="bg-[#e8e8e8] p-2 rounded-full">
           <ChevronLeftIcon
             className="text-gray-40 h-7 w-7"
@@ -175,7 +175,7 @@ export default function eficiedu() {
       {/* preciso ajustar aqui pra poder funcionar o botão de ir para os lados sem desconfigurar o grid */}
       <div
         id="content"
-        className="grid grid-flow-col scrollbar-hide mx-5 mt-5 mb-[-10px] h-[820px] scroll-smooth gap-4 overflow-x-auto bg-[#e8e8e8] rounded-[40px] lg:h-[850px]"
+        className="grid grid-flow-col scrollbar-hide mx-5 mt-3 h-[820px] scroll-smooth gap-4 overflow-x-auto bg-[#e8e8e8] rounded-[40px] lg:h-[850px]"
       >
         {/* Seletor de parametros (usei o headless UI) */}
 

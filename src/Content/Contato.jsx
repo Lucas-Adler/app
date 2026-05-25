@@ -4,12 +4,13 @@
 export default function RoadMap() {
   return (
     <section
-      className="lg:max-w-[75%] lg:mx-auto max-w-full px-[8%] w-full h-[1000px] font-display bg-[#f0f0f0] rounded-t-[60px] mt-[-60px] pt-10"
+      className="lg:max-w-[75%] lg:mx-auto max-w-full px-[8%] w-full h-[1000px] font-display bg-[#f0f0f0] mt-[-60px] z-0"
       id="Contato"
     >
+     {/*
       <img src="/Line.svg" className="relative mx-auto mt-[-30px] z-20 "/>
       <img id="Rectangle" src="/Rectangle-cnt.svg" className='relative mx-auto mt-[-22px] z-10 w-[160px]' />
-
+     */}
       <div className="pt-36">
         <div className="flex justify-between">
           <form action="https://api.web3forms.com/submit" method="POST" className="">
