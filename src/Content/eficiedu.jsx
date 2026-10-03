@@ -228,7 +228,7 @@ export default function eficiedu() {
             <img
               src={office}
               alt=""
-              className=" w-[354px]  z-20 lg:pb-10 pb-5"
+              className="mx-[15%] w-56 lg:w-80 lg:mx-3 z-20 lg:pb-10 pb-5 "
             />
           </div>
 

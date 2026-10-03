@@ -2,7 +2,7 @@ export default function RoadMap() {
   return (
     <section
       className="lg:max-w-[100%] lg:mx-auto max-w-full 
-      px-[8%] w-full h-[100px] font-display bg-secondary-300 rounded-t-3xl mt-[-100px] 
+      px-[8%] w-full h-[100px] font-display bg-secondary-300 rounded-t-3xl lg:mt-[-100px] mt-5
       flex items-center justify-items-end
       dark:bg-secondary-800"
       id="Bottom"
