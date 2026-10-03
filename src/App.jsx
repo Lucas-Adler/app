@@ -8,9 +8,10 @@ import Bottom from './Content/Bottom'
 
 
 
+
  function App() {
-   return (
-     <div className="snap-y snap-mandatory overflow-scroll h-full scroll-smooth bg-[url('/src/assets/BG.png')] bg-fixed bg-cover">
+     return (
+     <div className="snap-y snap-proximity overflow-scroll h-full scroll-smooth bg-grain">
      
          <Navbar/>
          <Home />
