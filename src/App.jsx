@@ -11,7 +11,7 @@ import Bottom from './Content/Bottom'
 
  function App() {
      return (
-     <div className="snap-y snap-proximity overflow-scroll h-full scroll-smooth bg-grain">
+     <div className="snap-y snap-mandatory overflow-scroll h-full scroll-smooth bg-grain scroll-m10">
      
          <Navbar/>
          <Home />
